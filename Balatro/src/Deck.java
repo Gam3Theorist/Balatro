@@ -1,10 +1,12 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Deck
 	{
 
 	public static ArrayList<Card> deck = new ArrayList<Card>();
 	public static ArrayList<Card> modifiedDeck = new ArrayList<Card>();
+	 
 	
 	public static void fillDeck()
 		{
@@ -61,8 +63,14 @@ public class Deck
 	deck.add(new Card("two", "spades", 2, "none", "none", "none"));
 	deck.add(new Card("two", "diamonds", 2, "none", "none", "none"));
 	}
-		
 	
+		
+	public static void shuffleDeck()
+	{
+		Collections.shuffle(modifiedDeck);
+		
+		
+	}
 	
 	public static void fillModifiedDeck()
 	{
@@ -71,13 +79,6 @@ public class Deck
 			{
 				
 				modifiedDeck.add(deck.get(i));
-				
-				
-			}
-		for(int i=0; i< deck.size(); i++)
-			{
-				
-				System.out.println(modifiedDeck.get(i).getRank());
 				
 				
 			}

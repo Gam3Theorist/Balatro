@@ -2,12 +2,12 @@
 public class Card
 	{
 
-	static	String rank;
-	static	String suit;
-	static	int value;
-	static	String enhanced;
-	static	String seal;
-	static	String edition;
+	private	String rank;
+	private	String suit;
+	private	int value;
+	private	String enhanced;
+	private	String seal;
+	private	String edition;
 	
 //======================================================================
 		
