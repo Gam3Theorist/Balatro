@@ -3,6 +3,7 @@ public class Card
 	{
 
 	private	String rank;
+	private int order;
 	private	String suit;
 	private	int value;
 	private	String enhanced;
@@ -11,10 +12,11 @@ public class Card
 	
 //======================================================================
 		
-		public Card (String r, String su, int v, String en, String se, String ed)
+		public Card (String r, int o, String su, int v, String en, String se, String ed)
 		{
 			
 		rank=r;
+		order=o;
 		suit=su;
 		value=v;
 		enhanced=en;
@@ -25,6 +27,14 @@ public class Card
 		}
 //======================================================================
 		
+		public int getOrder() {
+			return order;
+		}
+
+		public void setOrder(int order) {
+			this.order = order;
+		}
+
 		public String getRank()
 			{
 				return rank;

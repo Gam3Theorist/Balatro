@@ -10,65 +10,64 @@ public class Deck
 	
 	public static void fillDeck()
 		{
-	deck.add(new Card("ace", "hearts", 11, "none", "none", "none"));
-	deck.add(new Card("ace", "clubs", 11, "none", "none", "none"));
-	deck.add(new Card("ace", "spades", 11, "none", "none", "none"));
-	deck.add(new Card("ace", "diamonds", 11, "none", "none", "none"));
-	deck.add(new Card("king", "hearts", 10, "none", "none", "none"));
-	deck.add(new Card("king", "clubs", 10, "none", "none", "none"));
-	deck.add(new Card("king", "spades", 10, "none", "none", "none"));
-	deck.add(new Card("king", "diamonds", 10, "none", "none", "none"));
-	deck.add(new Card("queen", "hearts", 10, "none", "none", "none"));
-	deck.add(new Card("queen", "clubs", 10, "none", "none", "none"));
-	deck.add(new Card("queen", "spades", 10, "none", "none", "none"));
-	deck.add(new Card("queen", "diamonds", 10, "none", "none", "none"));
-	deck.add(new Card("jack", "hearts", 10, "none", "none", "none"));
-	deck.add(new Card("jack", "clubs", 10, "none", "none", "none"));
-	deck.add(new Card("jack", "spades", 10, "none", "none", "none"));
-	deck.add(new Card("jack", "diamonds", 10, "none", "none", "none"));
-	deck.add(new Card("ten", "hearts", 10, "none", "none", "none"));
-	deck.add(new Card("ten", "clubs", 10, "none", "none", "none"));
-	deck.add(new Card("ten", "spades", 10, "none", "none", "none"));
-	deck.add(new Card("ten", "diamonds", 10, "none", "none", "none"));
-	deck.add(new Card("nine", "hearts", 9, "none", "none", "none"));
-	deck.add(new Card("nine", "clubs", 9, "none", "none", "none"));
-	deck.add(new Card("nine", "spades", 9, "none", "none", "none"));
-	deck.add(new Card("nine", "diamonds", 9, "none", "none", "none"));
-	deck.add(new Card("eight", "hearts", 8, "none", "none", "none"));
-	deck.add(new Card("eight", "clubs", 8, "none", "none", "none"));
-	deck.add(new Card("eight", "spades", 8, "none", "none", "none"));
-	deck.add(new Card("eight", "diamonds", 8, "none", "none", "none"));
-	deck.add(new Card("seven", "hearts", 7, "none", "none", "none"));
-	deck.add(new Card("seven", "clubs", 7, "none", "none", "none"));
-	deck.add(new Card("seven", "spades", 7, "none", "none", "none"));
-	deck.add(new Card("seven", "diamonds", 7, "none", "none", "none"));
-	deck.add(new Card("six", "hearts", 6, "none", "none", "none"));
-	deck.add(new Card("six", "clubs", 6, "none", "none", "none"));
-	deck.add(new Card("six", "spades", 6, "none", "none", "none"));
-	deck.add(new Card("six", "diamonds", 6, "none", "none", "none"));
-	deck.add(new Card("five", "hearts", 5, "none", "none", "none"));
-	deck.add(new Card("five", "clubs", 5, "none", "none", "none"));
-	deck.add(new Card("five", "spades", 5, "none", "none", "none"));
-	deck.add(new Card("five", "diamonds", 5, "none", "none", "none"));
-	deck.add(new Card("four", "hearts", 4, "none", "none", "none"));
-	deck.add(new Card("four", "clubs", 4, "none", "none", "none"));
-	deck.add(new Card("four", "spades", 4, "none", "none", "none"));
-	deck.add(new Card("four", "diamonds", 4, "none", "none", "none"));
-	deck.add(new Card("three", "hearts", 3, "none", "none", "none"));
-	deck.add(new Card("three", "clubs", 3, "none", "none", "none"));
-	deck.add(new Card("three", "spades", 3, "none", "none", "none"));
-	deck.add(new Card("three", "diamonds", 3, "none", "none", "none"));
-	deck.add(new Card("two", "hearts", 2, "none", "none", "none"));
-	deck.add(new Card("two", "clubs", 2, "none", "none", "none"));
-	deck.add(new Card("two", "spades", 2, "none", "none", "none"));
-	deck.add(new Card("two", "diamonds", 2, "none", "none", "none"));
+	deck.add(new Card("Ace",13, "hearts", 11, "none", "none", "none"));  //  8   |   3        |||     8     9    10    11    12    13    
+	deck.add(new Card("Ace",13, "clubs", 11, "none", "none", "none"));   //  5   |   4
+	deck.add(new Card("Ace",13, "spades", 11, "none", "none", "none"));  //  6   |   5
+	deck.add(new Card("Ace",13, "diamonds", 11, "none", "none", "none"));
+	deck.add(new Card("King",12, "hearts", 10, "none", "none", "none"));
+	deck.add(new Card("King",12, "clubs", 10, "none", "none", "none"));
+	deck.add(new Card("King",12, "spades", 10, "none", "none", "none"));
+	deck.add(new Card("King",12, "diamonds", 10, "none", "none", "none"));
+	deck.add(new Card("Queen",11, "hearts", 10, "none", "none", "none"));
+	deck.add(new Card("Queen",11, "clubs", 10, "none", "none", "none"));
+	deck.add(new Card("Queen",11, "spades", 10, "none", "none", "none"));
+	deck.add(new Card("Queen",11, "diamonds", 10, "none", "none", "none"));
+	deck.add(new Card("Jack",10, "hearts", 10, "none", "none", "none"));
+	deck.add(new Card("Jack",10, "clubs", 10, "none", "none", "none"));
+	deck.add(new Card("Jack",10, "spades", 10, "none", "none", "none"));
+	deck.add(new Card("Jack",10, "diamonds", 10, "none", "none", "none"));
+	deck.add(new Card("Ten",9, "hearts", 10, "none", "none", "none"));
+	deck.add(new Card("Ten",9, "clubs", 10, "none", "none", "none"));
+	deck.add(new Card("Ten",9, "spades", 10, "none", "none", "none"));
+	deck.add(new Card("Ten",9, "diamonds", 10, "none", "none", "none"));
+	deck.add(new Card("Nine",8, "hearts", 9, "none", "none", "none"));
+	deck.add(new Card("Nine",8, "clubs", 9, "none", "none", "none"));
+	deck.add(new Card("Nine",8, "spades", 9, "none", "none", "none"));
+	deck.add(new Card("Nine",8, "diamonds", 9, "none", "none", "none"));
+	deck.add(new Card("Eight",7, "hearts", 8, "none", "none", "none"));
+	deck.add(new Card("Eight",7, "clubs", 8, "none", "none", "none"));
+	deck.add(new Card("Eight",7, "spades", 8, "none", "none", "none"));
+	deck.add(new Card("Eight",7, "diamonds", 8, "none", "none", "none"));
+	deck.add(new Card("Seven",6, "hearts", 7, "none", "none", "none"));
+	deck.add(new Card("Seven",6, "clubs", 7, "none", "none", "none"));
+	deck.add(new Card("Seven",6, "spades", 7, "none", "none", "none"));
+	deck.add(new Card("Seven",6, "diamonds", 7, "none", "none", "none"));
+	deck.add(new Card("Six",5, "hearts", 6, "none", "none", "none"));
+	deck.add(new Card("Six",5, "clubs", 6, "none", "none", "none"));
+	deck.add(new Card("Six",5, "spades", 6, "none", "none", "none"));
+	deck.add(new Card("Six",5, "diamonds", 6, "none", "none", "none"));
+	deck.add(new Card("Five",4, "hearts", 5, "none", "none", "none"));
+	deck.add(new Card("Five",4, "clubs", 5, "none", "none", "none"));
+	deck.add(new Card("Five",4, "spades", 5, "none", "none", "none"));
+	deck.add(new Card("Five",4, "diamonds", 5, "none", "none", "none"));
+	deck.add(new Card("Four",3, "hearts", 4, "none", "none", "none"));
+	deck.add(new Card("Four",3, "clubs", 4, "none", "none", "none"));
+	deck.add(new Card("Four",3, "spades", 4, "none", "none", "none"));
+	deck.add(new Card("Four", 3, "diamonds", 4, "none", "none", "none"));
+	deck.add(new Card("Three", 2, "hearts", 3, "none", "none", "none"));
+	deck.add(new Card("Three", 2, "clubs", 3, "none", "none", "none"));
+	deck.add(new Card("Three",  2,"spades", 3, "none", "none", "none"));
+	deck.add(new Card("Three", 2, "diamonds", 3, "none", "none", "none"));
+	deck.add(new Card("Two", 1,"hearts", 2, "none", "none", "none"));
+	deck.add(new Card("Two", 1,"clubs", 2, "none", "none", "none"));
+	deck.add(new Card("Two", 1,"spades", 2, "none", "none", "none"));
+	deck.add(new Card("Two", 1, "diamonds", 2, "none", "none", "none"));
 	}
 	
 		
 	public static void shuffleDeck()
 	{
 		Collections.shuffle(modifiedDeck);
-		
 		
 	}
 	

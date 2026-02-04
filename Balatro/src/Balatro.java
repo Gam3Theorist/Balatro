@@ -9,8 +9,11 @@ public class Balatro
 				Deck.fillDeck();
 				Deck.fillModifiedDeck();
 				Deck.shuffleDeck();
-				
-				
+
+				Play.draw();
+				Play.displayHand();
+				Play.pick();
+				Play.displayPlay();
 
 				
 			}
